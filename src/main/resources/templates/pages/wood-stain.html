@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Staining the Wood</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2>
+    Step 2: Select and Apply a Wood Stain
+</h2>
+<img class="left" th:src="@{/img/wood-stains.jpg}" alt="Wood Stain">
+<p>
+    Choosing a wood stain is a matter of personal preference and do-it-yourselfers have a variety of stains to choose
+    from. Stains such as Minwax® Wood Finish™ feature traditional wood tones, while Water-Based Stains (which includes
+    50 custom colors) allow you to select a stain color that coordinates with your decor. Tip: Before staining, always
+    test the selected stain on a hidden area of your piece, or on scrap wood that matches the wood species of your
+    project.
+</p>
+<p>
+    Content taken from <a href="https://minwax.com/how-to-finish-wood/three-easy-steps-to-a-beautiful-finish/">Minwax.</a>
+</p>
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

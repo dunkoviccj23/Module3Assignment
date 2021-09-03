@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<body>
+<header th:fragment="header">
+    <a th:href="@{/}"><img th:src="@{/img/logo.png}"/></a>
+    <nav>
+        <ul>
+            <li><a th:href="@{/}">Home</a></li>
+            <li><a th:href="@{/pages/preparing-wood}">Prepare the Wood</a></li>
+            <li><a th:href="@{/pages/wood-stain}">Select and Apply a Wood Stain</a></li>
+            <li><a th:href="@{/pages/clear-finish}">Add a Clear Protective Finish</a></li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>
